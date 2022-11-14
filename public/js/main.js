@@ -1,5 +1,12 @@
 "use strict";
 /// <reference path="https://cdn.socket.io/4.5.3/socket.io.min.js"/>
+/// <reference path="../../node_modules/socket.io-client/build/esm/index.js"/>
+
+// どっちでもioが使える
+// import '/socket.io/socket.io.js'
+import 'https://cdn.socket.io/4.5.3/socket.io.min.js'
+
+// import { io } from 'socket.io-client'; // これはできない
 
 //-------------------------------------
 // Socket.ioサーバへ接続
