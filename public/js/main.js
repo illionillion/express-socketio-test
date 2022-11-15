@@ -4,8 +4,12 @@
 
 // どっちでもioが使える
 // import '/socket.io/socket.io.js'
-import 'https://cdn.socket.io/4.5.3/socket.io.min.js'
-import 'https://code.jquery.com/jquery-3.3.1.js' // jQuery
+// import 'https://cdn.socket.io/4.5.3/socket.io.min.js'
+// import 'https://code.jquery.com/jquery-3.3.1.js' // jQuery
+
+// import maps
+import 'socket.io-client'
+import 'jQuery' // jQuery
 
 // import { io } from 'socket.io-client'; // これはできない
 // import { io } from 'https://cdn.socket.io/4.5.3/socket.io.min.js' // これもダメ
