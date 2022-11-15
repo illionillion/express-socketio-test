@@ -7,6 +7,7 @@
 import 'https://cdn.socket.io/4.5.3/socket.io.min.js'
 
 // import { io } from 'socket.io-client'; // これはできない
+// import { io } from 'https://cdn.socket.io/4.5.3/socket.io.min.js' // これもダメ
 
 //-------------------------------------
 // Socket.ioサーバへ接続
