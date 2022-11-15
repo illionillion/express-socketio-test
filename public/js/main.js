@@ -5,6 +5,7 @@
 // どっちでもioが使える
 // import '/socket.io/socket.io.js'
 import 'https://cdn.socket.io/4.5.3/socket.io.min.js'
+import 'https://code.jquery.com/jquery-3.3.1.js' // jQuery
 
 // import { io } from 'socket.io-client'; // これはできない
 // import { io } from 'https://cdn.socket.io/4.5.3/socket.io.min.js' // これもダメ
@@ -18,6 +19,9 @@ const socket = io();
  * [イベント] ページの読込み完了
  */
 window.onload = () => {
+
+  // $が使える
+  console.log($('body'));
   /**
    * [イベント] フォームが送信された
    */
